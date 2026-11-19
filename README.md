@@ -1,3 +1,4 @@
+[![Node.js CI](https://github.com/aphodges04/ExpenseTracker/actions/workflows/node.js.yml/badge.svg)](https://github.com/aphodges04/ExpenseTracker/actions/workflows/node.js.yml)
 # Expense Tracker: Instructions
 
 The goal of the assignment is to help prepare you for the project. You will work with similar tools and follow the same process as in the project.
