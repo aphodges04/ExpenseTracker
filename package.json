@@ -6,11 +6,12 @@
   "directories": {
     "doc": "docs"
   },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node --env-file-if-exists=.env src/server.js",
-    "dev": "node --watch --env-file-if-exists=.env src/server.js"
-  },
+"scripts": {
+"start": "node --env-file-if-exists=.env src/server.js" ,
+"dev": "node --watch --env-file-if-exists=.env src/server.js" ,
+"test": "vitest run" ,
+"lint": "eslint ."
+},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ssthapit-smcm/COSC301-ExpenseTracker-JS.git"
