@@ -17,6 +17,7 @@ export class Salary extends MoneyEntry{
   constructor({ id, amount, date}) {
     super({ id, amount, date});
   }
+}
 
   // TODO: Decide whether Salary needs its own validate() method,
   // or whether the one inherited from MoneyEntry is enough.
