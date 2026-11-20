@@ -35,7 +35,7 @@ beforeEach(() => {
     it('rejects a negative amount', () => {
       salary.amount = -50;
 
-      expect(salary.validate()).toEqual(['amount is required and must be greater than 0 characters']);
+      expect(salary.validate()).toEqual(['amount must be a number greater than 0']);
     });
     
     it('rejects a pay date in the wrong format', () => {
