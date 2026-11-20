@@ -34,4 +34,3 @@ export class Salary extends MoneyEntry{
 
     return errors;
   } 
-}
