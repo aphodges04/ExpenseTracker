@@ -21,16 +21,16 @@ export class Salary extends MoneyEntry{
 
   // TODO: Decide whether Salary needs its own validate() method,
   // or whether the one inherited from MoneyEntry is enough.
- validate() {
-    const errors = super.validate();
+ // validate() {
+ //    const errors = super.validate();
 
-    if (
-      typeof this.amount !== 'integer' ||
-      this.amount.trim().length === 0 ||
-      this.amount.length > MIN_AMOUNT_LENGTH
-    ) {
-      errors.push(`amount is required and must be greater than ${MIN_AMOUNT_LENGTH} characters`);
-    }
+ //    if (
+ //      typeof this.amount !== 'integer' ||
+ //      this.amount.trim().length === 0 ||
+ //      this.amount.length > MIN_AMOUNT_LENGTH
+ //    ) {
+ //      errors.push(`amount is required and must be greater than ${MIN_AMOUNT_LENGTH} characters`);
+ //    }
 
-    return errors;
-  } 
+ //    return errors;
+ //  } 
